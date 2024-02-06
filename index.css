@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    height:100vh;
+}
+header{
+    position:sticky;
+    width:100%;
+    height: 80px;
+    background:#eafee0;
+    top:0;
+    right:0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+.navlogo span{
+    color: #5EC92A;
+}
+
+.navmenu ul{
+    width:650px;
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navmenu li a{
+    padding: 10px;
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 0.4s;
+}
+.navmenu li a:hover{
+    color: #5EC92A;
+}
+.navbtn {
+    width:100px;
+    color: black;
+    background: #f1ffea;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 10px;
+    border: 2px solid #5EC92A;
+    transition: transform 0.4s ease-in-out;
+    transition: 0.4s;
+}
+.navbtn:hover{
+    background-color: #5EC92A;
+    color: black;
+    border: 2px solid #5EC92A;
+    transform: scale(1.1);
+}
+.cover{
+    background: rgb(255, 255, 255);
+    width:100%;
+    height: 90vh;
+}
+.covercontent{
+    margin:0 150px 0 150px;
+    display: flex;
+}
+.covercontentin{
+    width: 40%;
+    height:100%;
+    padding-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.covercontentin h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+.covercontentin p{
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.coverbtn{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.coverbtn a{
+    margin: 40px 0px 0px 60px;
+    background: solid black;
+}
+.coverbtn1{
+    width:150px;
+    height: 60px;
+    color: black;
+    background: #f1ffea;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 17px;
+    border: 2px solid #5EC92A;
+    transition: 0.4s;
+}
+.coverbtn1:hover{
+    background-color: #5EC92A;
+    color: black;
+    border: 2px solid #5EC92A;
+}
+.coverbtn2{
+    width:150px;
+    height: 60px;
+    color: black;
+    background: #5EC92A;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 17px;
+    border: 2px solid #5EC92A;
+    transition: 0.4s;
+}
+.coverbtn2:hover{
+    background-color: #dbdbdb;
+    color: black;
+    border: 2px solid #3f3f3f;
+}
+.coverimg{
+    width: 60%;
+    padding: 100px 0px 0px 40px;
+}
+.coverimg img{
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+}
+.coverimg img:hover{
+    transform: scale(1.1);
+}
